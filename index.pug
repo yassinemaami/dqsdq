@@ -1,0 +1,43 @@
+doctype 
+html 
+	head 
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title Deer Template
+		link(rel="icon" href="https://i.suar.me/q7dB1/l")
+		//- Normalize & Global rules
+		link(rel="stylesheet" href="css/first.css")
+		//- Font Awesome
+		link(rel="stylesheet" href="css/all.min.css")
+		//- Google fonts
+			font-family: 'Cairo', sans-serif;
+		link(rel='preconnect' href='https://fonts.googleapis.com')
+		link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+		link(href='https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap' rel='stylesheet')
+
+		//- Main css file
+		link(rel="stylesheet" href="css/main.css")
+	body
+		#header.header
+			.container 
+				a(href="#" class="logo") Deer 
+				ul.main-nav
+					li 
+						a(href="#articles") Articles
+					li 
+						a(href="#gallery") Gallery
+					li 
+						a(href="#features") Features 
+					li 
+						a(href="") Other Links 
+		.landing 
+			.container 
+				.text
+					h1 Welcome, To Deer World
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit
+				.image 
+					img(src="images/landing-image.png")
+			a(href="#articles", class ="go-down") 
+				i.fas.fa-angle-double-down.fa-2x
+		//- Scripts
+		script(src="js/main.js") 
